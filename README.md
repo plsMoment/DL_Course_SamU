@@ -1,162 +1,94 @@
 # Курс "Нейронные сети и глубокое обучение" Самарского университета  
-Лектор Артем Владимирович Никоноров, д.т.н., artniko@gmail.com  
-Ассистент Виктория Витальевна Евдокимова, аспирант Самарского университета, data.science.sbj@gmail.com
+Лектор [Артем Владимирович Никоноров](https://ssau.ru/staff/66320001-nikonorov-artem-vladimirovich), д.т.н., artniko@gmail.com  
+Ассистенты: [Виктория Витальевна Евдокимова](https://ssau.ru/staff/304968209-evdokimova-viktoriya-vitalevna/edu), 
+            [Никита Александрович Фирсов](https://ssau.ru/staff/441332557-firsov-nikita-aleksandrovich/edu) 
 
+Телеграмм группа курса:
+https://t.me/DL_SamU_2022
 
 Курс основывается на предыдущих более обзорных лекциях и туториалах по глубокому обучению и его приложениях, в частности, вот [небольшая обзорная лекция](https://youtu.be/Gpq1PFUee88) в Кавказском Математическом Центре. Также во многом этот курс является адаптацией известнейшего курса http://cs231n.stanford.edu/  
 
-## 6235 - Зачет и экзамен (январь 2021).  
 
-Зачет по лабораторным 25.12.20 с 11.30, подробности в чате в личном кабинете.  
-Консультация в 10-00 25 января 2021 в zoom, ссылка будет позднее.  
-Экзамен 26 января 2021.  
 
-[Вопросы.](https://github.com/da0c/DL_Course_SamU/blob/master/Exams_2021/DL_Exam.pdf)   
-[Примеры задач.](https://github.com/da0c/DL_Course_SamU/blob/master/Exams_2021/MidTerm.pdf)   
+## График проведения курса 2022-2023
+**Видеозаписи лекций 2020-21 годов  можно найти по [ссылке](https://github.com/da0c/DL_Course_SamU).**  
 
-## График проведения курса 2020-2021.
-**Лекционный курс закончен, видеозаписи 2020-21 годов приведены ниже.**  
-
-Телеграмм группа курса:
-https://t.me/DL_SamU_2020
-
-Лекции раз в две недели по понедельникам.
+Лекции раз в две недели по [пятницам](https://ssau.ru/rasp?staffId=66320001&selectedWeek=3&selectedWeekday=1).
 Продолжительность лекции два астрономических часа.
 
-[Видеозапись первой лекции](https://www.youtube.com/watch?v=BKG1wEATYOU)
+Первая лекция: 10.09.22 в 10:00 в Zoom.
 
 
-## Лекционный план 2020-2021  
+## Лекционный план 2022-2023  
 
 **Лекция 1. Классификация, основанная на данных**   
-[Видеозапись лекции 14.09.2020](https://www.youtube.com/watch?v=BKG1wEATYOU)  
+
 Введение в курс.  
 Задача классификации изображений.  
 Подходы основанные на данных.  
 Линейная классификация и knn-классификатор.  
   
-[Презентация к лекции 1](https://github.com/da0c/DL_Course_SamU/blob/master/lections/Lection_1_ImClass.pdf)  
 
 **Лекция 2. Функции потерь и оптимизация.**  
-[Видеозапись лекции 28.09.2020](https://www.youtube.com/watch?v=3uOIqTNclPA)  
+
 Мультиклассовый SVM и его функция потерь.  
 Софтмакс и мультимодальная логистическая регрессия.  
 Оптимизация функции потерь.  
 Стохастический градиентный спуск (SGD).  
   
-[Презентация к лекции 2](https://github.com/da0c/DL_Course_SamU/blob/master/lections/Lection_2_SGD.pdf)  
 
 **Лекция 3. Нейронные сети и обратное распространение ошибки.**  
-[Видеозапись лекции 28.09.2020](https://www.youtube.com/watch?v=3uOIqTNclPA)  
+ 
 Классификация с точки зрения нейронной сети.  
 Многослойный перцептрон.  
 Представление сети в виде вычислительного графа.
 Алгоритм обратного распространения ошибки на вычислительном графе.  
-  
-[Презентация к лекции 3](https://github.com/da0c/DL_Course_SamU/blob/master/lections/Lecture_3_BP.pdf)  
 
 **Лекция 4. Сверточные сети (СНС).**  
 История.  
 Основные операции СНС.  
 Применение СНС вне задач машинного зрения.  
 
-[Презентация к лекции 4](https://github.com/da0c/DL_Course_SamU/blob/master/lections/Lecture_4_CNN1.pdf)
-
 **Лекция 5. Инструментарий глубокого обучения.**  
-[Видеозапись лекции 30.10.2020](https://www.youtube.com/watch?v=E0F11tV92sU&feature=youtu.be)  
 CPU vs GPU vs TPU.  
 Пакеты глубокого обучения, Tensorflow, Keras и другие.  
 Вычислительные графы СНС.  
 
-[Презентация к лекции 5](https://github.com/da0c/DL_Course_SamU/blob/master/lections/lecture_5_Tools.pdf)
-
 **Лекция 6. Обучение СНС, часть 1.**  
-
-[Видеозапись лекции 09.11.2020](https://youtu.be/0pHAWXmDnIM)  
 
 Активационные функции, обработка данных сетью.  
 Пакетная нормализация и другие трюки.  
 Transfer learning.
 
-[Презентация к лекции 6](https://github.com/da0c/DL_Course_SamU/blob/master/lections/lecture_6_Training1.pdf)  
-
 **Лекция 7. Обучение СНС, часть 2.**  
-
-[Видеозапись лекции 23.11.2020](https://youtu.be/1ypE6fz5zXo)  
 
 Политики обновления гиперпараметров.  
 Тюнинг процесса обучения.
 Аугментация данных.  
 
-[Презентация к лекции 7](https://github.com/da0c/DL_Course_SamU/blob/master/lections/lecture_7_Training2.pdf)  
-
 **Лекция 8. Архитектуры СНС**  
-
-[Видеозапись лекции 07.12.2020](https://youtu.be/07AcZgtoipc)  
 
 Базовые архитектуры - AlexNet, VGG, GoogleNet, ResNet, UNET и другие.  
 
-[Презентация к лекции 8](https://github.com/da0c/DL_Course_SamU/blob/master/lections/lecture_8_Arch.pdf)  
 
 **Лекция 9. Генеративные и рекуррентные модели**  
 
-[Видеозапись лекции 23.12.2020](https://youtu.be/XWd6XYPVYdM)  
 
 1. RNN/LSTM.  
 Механизм attention.
 Обработка естественного языка.
 
-[Презентация к лекции 9.1](https://github.com/da0c/DL_Course_SamU/blob/master/lections/lecture_9_1.pdf)  
-
 2. GAN сети.
-
-[Презентация к лекции 9.2](https://github.com/da0c/DL_Course_SamU/blob/master/lections/lecture_9_2.pdf)  
 
 3. Детектирование и сегментация.
 
-[Презентация к лекции 9.3](https://github.com/da0c/DL_Course_SamU/blob/master/lections/lecture_9_3.pdf)  
-
-
 **Лекция 10. Нейростевые модели и искусственный интеллект**  
 
-[Видеозапись лекции 10, 18.01.2021](https://youtu.be/409okL3L6CY)  
 
+## План лабораторных работ
 
-## План лабораторных работ.
-
-План может меняться в процессе курса.  
-
-**Л.Р. 1**  
-kNN, многоклассовый SVM, SoftMax.  
-[Материалы к лабораторной](https://github.com/da0c/DL_Course_SamU/blob/master/lab_1-2/assignment1.ipynb).
-
-**Л.Р. 2**  
-Двухслойная сеть.  
-[Материалы к лабораторной](https://github.com/da0c/DL_Course_SamU/blob/master/lab_1-2/assignment2.ipynb).
-
-**Л.Р. 3**  
-Многослойный перцептрон, обратное распространение ошибки, сверточные сети.   
-[Материалы к лабораторной](https://github.com/da0c/DL_Course_SamU/blob/master/lab_3/assignment3.ipynb).   
-
-**Л.Р. 4**  
-Использование библиотеки Tensorflow для обучения СНС.  
-[Материалы к лабораторной](https://github.com/da0c/DL_Course_SamU/blob/master/lab_4/assignment4.ipynb).  
-
-**Л.Р. 5**  
-Решение прикладной задачи с применением СНС.
-
-Задание на Л.Р. 5: 
-1) Определите задачу.
-2) Предложите ее решение на основе СНС.
-3) Реализуйте предложенное решение с использованием библиотеки глубокого обучения (например, Tensorflow). 
-4) Опишите результаты работы в виде статьи по шаблону конференции [ИТНТ](http://itnt-conf.org/index.php/materialy/shablony). 
-
-
-Интересные задачи можно найти в сборниках следующих конференций:  
-[CVPR: IEEE Conference on Computer Vision and Pattern Recognition](https://openaccess.thecvf.com/CVPR2019)  
-[ICCV: International Conference on Computer Vision](https://openaccess.thecvf.com/ICCV2019)  
-[ECCV: European Conference on Computer Vision](https://openaccess.thecvf.com/ECCV2018)  
-или на сайте [Kaggle](https://www.kaggle.com/) . 
+- [для групп 6231, 6233](lab_schedule_6231_6233.md)
+- [для группы 1143](lab_schedule_1143.md)
 
 
 
