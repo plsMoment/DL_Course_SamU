@@ -60,6 +60,7 @@ https://us02web.zoom.us/j/8366671872?pwd=NS9ZaXNWWG55Y0pESUZIZHlRa0U5dz09
 
 [Видеозапись третьей лекции](https://youtu.be/9nUzJxCeKIc)  
 [Презентация к лекции 3](https://github.com/kvvik/DL_Course_SamU/blob/master/Lectures/Lecture_3_SGD_22.pdf)  
+[Python-ноутбук к лекции 3](https://github.com/kvvik/DL_Course_SamU/blob/master/Lectures/Lecture_3.ipynb)  
 
 **Лекция 3. Нейронные сети и обратное распространение ошибки.**  
  
