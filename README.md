@@ -58,7 +58,7 @@ https://us02web.zoom.us/j/8366671872?pwd=NS9ZaXNWWG55Y0pESUZIZHlRa0U5dz09
 Стохастический градиентный спуск (SGD).  
 
 [Видеозапись третьей лекции](https://youtu.be/9nUzJxCeKIc)  
-Презентация - TBD.  
+[резентация к лекции](https://github.com/kvvik/DL_Course_SamU/blob/master/Lectures/Lecture_3_SGD_22.pdf)  
 
 **Лекция 3. Нейронные сети и обратное распространение ошибки.**  
  
