@@ -19,7 +19,7 @@ https://t.me/DL_SamU_2022
 ## График проведения курса 2022-2023
 **Видеозаписи лекций 2020-21 годов  можно найти по [ссылке](https://github.com/da0c/DL_Course_SamU).**  
 
-Лекции раз в две недели по [четвергам](https://ssau.ru/rasp?staffId=66320001&selectedWeek=3&selectedWeekday=1).
+Лекции раз в неделю по [четвергам](https://ssau.ru/rasp?staffId=66320001&selectedWeek=3&selectedWeekday=1).
 Начало в 19-00 по Самаре. Продолжительность лекции два астрономических часа.
 
 Первая лекция: 10.09.22 в 10:00 в Zoom.
