@@ -80,6 +80,8 @@ https://us02web.zoom.us/j/8366671872?pwd=NS9ZaXNWWG55Y0pESUZIZHlRa0U5dz09
 Основные операции СНС.  
 Применение СНС вне задач машинного зрения.  
 Разбор задач к самостоятельной: расчет выхода сверточной сети.  
+  
+[Презентация к лекции 5](https://github.com/kvvik/DL_Course_SamU/blob/master/Lectures/Lecture_5_CNN_22.pdf)  
 
 **Лекция 6. Инструментарий глубокого обучения.**  
 CPU vs GPU vs TPU.  
