@@ -86,7 +86,9 @@ https://us02web.zoom.us/j/8366671872?pwd=NS9ZaXNWWG55Y0pESUZIZHlRa0U5dz09
 **Лекция 6. Инструментарий глубокого обучения.**  
 CPU vs GPU vs TPU.  
 Пакеты глубокого обучения, Tensorflow, Keras и другие.  
-Вычислительные графы СНС.  
+Вычислительные графы СНС.    
+  
+[Презентация к лекции 5](https://github.com/kvvik/DL_Course_SamU/blob/master/Lectures/lecture_6_DL_Tools_22.pdf)  
 
 **Самостоятельня работа.**  
   
