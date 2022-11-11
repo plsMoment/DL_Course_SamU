@@ -102,12 +102,22 @@ CPU vs GPU vs TPU.
 Активационные функции, обработка данных сетью.  
 Пакетная нормализация и другие трюки.  
 Transfer learning.
+  
+[Видеозапись седьмой лекции](https://youtu.be/g0iMdzk5Q-k)  
+  
+[Презентация к лекции 7](https://github.com/kvvik/DL_Course_SamU/blob/master/Lectures/lecture_7_Training1_22.pdf)  
+
 
 **Лекция 8. Обучение СНС, часть 2.**  
 
 Политики обновления гиперпараметров.  
 Тюнинг процесса обучения.
 Аугментация данных.  
+  
+[Видеозапись восьмой лекции](https://youtu.be/X77_BhagkJ0)  
+  
+[Презентация к лекции 8](https://github.com/kvvik/DL_Course_SamU/blob/master/Lectures/lecture_8_Training2_22.pdf)  
+
 
 **Лекция 9. Архитектуры СНС**  
 
