@@ -162,15 +162,21 @@ Zero shot подходы
 2. Отличная книга по техническим аспектам реализации на Python -  
 [Шолле Франсуа, Глубокое обучение на Python](https://www.ozon.ru/context/detail/id/145615583/)  
 
-3. [Лекционный курс К.В. Воронцова по машинному обучению](http://www.machinelearning.ru/wiki/index.php?title=%D0%9C%D0%B0%D1%88%D0%B8%D0%BD%D0%BD%D0%BE%D0%B5_%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5_%28%D0%BA%D1%83%D1%80%D1%81_%D0%BB%D0%B5%D0%BA%D1%86%D0%B8%D0%B9%2C_%D0%9A.%D0%92.%D0%92%D0%BE%D1%80%D0%BE%D0%BD%D1%86%D0%BE%D0%B2%29).
-4. [Видеолекция академика Ю.И. Журавлева](https://www.youtube.com/watch?v=R3CMqrrIWOk) об истоках машинного обучения в СССР и о сочетании эвристики и науки в распознавании образов.  
-5. Видеолекции С.И. Николенко по GAN сетям [1](https://www.youtube.com/watch?v=SlJgPIOlpiI), [2](https://www.youtube.com/watch?v=w38m5mTrG_M&t=1147s).
+3. Хорошая современная книга на английском: [Advanced Deep Learning with Python. By Ivan Vasilev](http://neuralnetworksanddeeplearning.com)
+
+4. [Лекционный курс К.В. Воронцова по машинному обучению](http://www.machinelearning.ru/wiki/index.php?title=%D0%9C%D0%B0%D1%88%D0%B8%D0%BD%D0%BD%D0%BE%D0%B5_%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5_%28%D0%BA%D1%83%D1%80%D1%81_%D0%BB%D0%B5%D0%BA%D1%86%D0%B8%D0%B9%2C_%D0%9A.%D0%92.%D0%92%D0%BE%D1%80%D0%BE%D0%BD%D1%86%D0%BE%D0%B2%29).  
+
+5. [Видеолекция академика Ю.И. Журавлева](https://www.youtube.com/watch?v=R3CMqrrIWOk) об истоках машинного обучения в СССР и о сочетании эвристики и науки в распознавании образов.  
+7. Видеолекции С.И. Николенко по GAN сетям [1](https://www.youtube.com/watch?v=SlJgPIOlpiI), [2](https://www.youtube.com/watch?v=w38m5mTrG_M&t=1147s).
 Хорошая проверка ваших знаний, на выходе из настоящего курса вы должны полностью понимать то, что говорится в этих лекциях по GAN.  
   
-6. Хорошая вводная книга по питону и базовым библиотекам, таким как numpy, pandas, jupyter.
+8. Хорошая вводная книга по питону и базовым библиотекам, таким как numpy, pandas, jupyter.
 [Python и анализ данных. Второе издание [2020] Уэс Маккинни](https://www.ozon.ru/product/python-i-analiz-dannyh-vtoroe-izdanie-makkini-ues-285933371)  
 [Альтернативная ссылка](https://vk.com/wall-51126445_67509)  
 Важное замечание: первое издание книги содержит в себе короткое введение в python, изъятое из второго издания. Первое издание с руководством по питону можно найти [например здесь](https://t.me/physics_lib).  
+
+9. Еще советская книга по методам оптимизации в технических задачах. Для тех кто не знает как рашифровывается BFGS))) -  
+[Реклейтис Г., Рейвиндран А., Рэгсдел К. Оптимизация в технике. Том 1 М.: Мир, 1986. – 348 с.](https://www.studmed.ru/rekleytis-g-reyvindran-a-regsdel-k-optimizaciya-v-tehnike-tom-1_5d310297b68.html)  
 
 [Хороший телеграмм канал с подборкой технических книг](https://t.me/physics_lib)  
 
