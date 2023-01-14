@@ -122,11 +122,24 @@ Transfer learning.
 **Лекция 9. Архитектуры СНС**  
 
 Базовые архитектуры - AlexNet, VGG, GoogleNet, ResNet, UNET и другие.  
+  
+[Видеозапись девятой лекции](https://youtu.be/ihkqOdUQsmo)  
+  
+[Презентация к лекции 9](https://github.com/kvvik/DL_Course_SamU/blob/master/Lectures/lecture_9_Arch_22.pdf)  
+
 
 
 **Часть третья. Дополнительные главы**
+
+**Лекция 10. Трансформерные архитектуры**  
   
-**Лекция 10. Генеративные и рекуррентные модели**  
+[Видеозапись десятой лекции](https://youtu.be/LjZxH6jGk-E)  
+  
+[Презентация к лекции 10](https://github.com/kvvik/DL_Course_SamU/blob/master/Lectures/lecture_10_Transfomers_22.pdf)  
+
+
+
+**Лекция 11. Генеративные и рекуррентные модели**  
 
 
 1. RNN/LSTM.  
@@ -137,7 +150,7 @@ Transfer learning.
 
 3. Детектирование и сегментация.
 
-**Лекция 11. SOTA модели**  
+**Лекция 12. SOTA модели**  
 Трансформеры   
 Zero shot подходы  
 Метаобучение  
