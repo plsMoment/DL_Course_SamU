@@ -46,8 +46,10 @@ https://us02web.zoom.us/j/8366671872?pwd=NS9ZaXNWWG55Y0pESUZIZHlRa0U5dz09
 
 [Видеозапись первой части](https://youtu.be/pruCadZdhmQ)  
 [Видеозапись второй части](https://youtu.be/bsdpRfQM-O8)  
-Презентация - TBD.
-  
+[Презентация к лекциям 1-2](https://github.com/kvvik/DL_Course_SamU/blob/master/lections/Nikonorov-2023.pdf)    
+
+
+
 **Часть вторая. Основы глубокого обучения.**   
   
 **Лекция 3. Функции потерь и оптимизация.**  
