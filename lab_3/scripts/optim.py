@@ -69,7 +69,8 @@ def sgd_momentum(w, dw, config=None):
     ###########################################################################
     # *****START OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
 
-    pass
+    v = config['momentum'] * v - config['learning_rate'] * dw
+    next_w = w + v
 
     # *****END OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
     ###########################################################################
@@ -80,10 +81,10 @@ def sgd_momentum(w, dw, config=None):
     return next_w, config
 
 
-def rmsprop(w, dw, config=None):
+def rmsprop(x, dx, config=None):
     """
-    Uses the RMSProp update rule, which uses a moving average of squared
-    gradient values to set adaptive per-parameter learning rates.
+    Uses the RMSProp update rule, which uses a moving average of squared gradient
+    values to set adaptive per-parameter learning rates.
 
     config format:
     - learning_rate: Scalar learning rate.
@@ -92,32 +93,33 @@ def rmsprop(w, dw, config=None):
     - epsilon: Small scalar used for smoothing to avoid dividing by zero.
     - cache: Moving average of second moments of gradients.
     """
-    if config is None:
-        config = {}
-    config.setdefault("learning_rate", 1e-2)
-    config.setdefault("decay_rate", 0.99)
-    config.setdefault("epsilon", 1e-8)
-    config.setdefault("cache", np.zeros_like(w))
+    if config is None: config = {}
+    config.setdefault('learning_rate', 1e-2)
+    config.setdefault('decay_rate', 0.99)
+    config.setdefault('epsilon', 1e-8)
+    config.setdefault('cache', np.zeros_like(x))
 
-    next_w = None
-    ###########################################################################
-    # TODO: Implement the RMSprop update formula, storing the next value of w #
-    # in the next_w variable. Don't forget to update cache value stored in    #
-    # config['cache'].                                                        #
-    ###########################################################################
-    # *****START OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
+    next_x = None
+    #############################################################################
+    # TODO: Implement the RMSprop update formula, storing the next value of x   #
+    # in the next_x variable. Don't forget to update cache value stored in      #
+    # config['cache'].                                                          #
+    #############################################################################
+    cache = config['cache']
+    decay_rate = config['decay_rate']
+    learning_rate = config['learning_rate']
+    epsilon = config['epsilon']
+    cache = decay_rate * cache + (1 - decay_rate) * dx ** 2
+    next_x = x - learning_rate * dx / (np.sqrt(cache) + epsilon)
+    config['cache'] = cache
+    #############################################################################
+    #                             END OF YOUR CODE                              #
+    #############################################################################
 
-    pass
-
-    # *****END OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
-    ###########################################################################
-    #                             END OF YOUR CODE                            #
-    ###########################################################################
-
-    return next_w, config
+    return next_x, config
 
 
-def adam(w, dw, config=None):
+def adam(x, dx, config=None):
     """
     Uses the Adam update rule, which incorporates moving averages of both the
     gradient and its square and a bias correction term.
@@ -131,32 +133,30 @@ def adam(w, dw, config=None):
     - v: Moving average of squared gradient.
     - t: Iteration number.
     """
-    if config is None:
-        config = {}
-    config.setdefault("learning_rate", 1e-3)
-    config.setdefault("beta1", 0.9)
-    config.setdefault("beta2", 0.999)
-    config.setdefault("epsilon", 1e-8)
-    config.setdefault("m", np.zeros_like(w))
-    config.setdefault("v", np.zeros_like(w))
-    config.setdefault("t", 0)
+    if config is None: config = {}
+    config.setdefault('learning_rate', 1e-3)
+    config.setdefault('beta1', 0.9)
+    config.setdefault('beta2', 0.999)
+    config.setdefault('epsilon', 1e-8)
+    config.setdefault('m', np.zeros_like(x))
+    config.setdefault('v', np.zeros_like(x))
+    config.setdefault('t', 0)
 
-    next_w = None
-    ###########################################################################
-    # TODO: Implement the Adam update formula, storing the next value of w in #
-    # the next_w variable. Don't forget to update the m, v, and t variables   #
-    # stored in config.                                                       #
-    #                                                                         #
-    # NOTE: In order to match the reference output, please modify t _before_  #
-    # using it in any calculations.                                           #
-    ###########################################################################
-    # *****START OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
+    next_x = None
+    #############################################################################
+    # TODO: Implement the Adam update formula, storing the next value of x in   #
+    # the next_x variable. Don't forget to update the m, v, and t variables     #
+    # stored in config.                                                         #
+    #############################################################################
+    m = config['beta1'] * config['m'] + (1 - config['beta1']) * dx
+    v = config['beta2'] * config['v'] + (1 - config['beta2']) * (dx ** 2)
+    mb = m / (1 - config['beta1'] ** (config['t'] + 1))
+    vb = v / (1 - config['beta2'] ** (config['t'] + 1))
+    next_x = x - config['learning_rate'] * mb / (np.sqrt(vb) + config['epsilon'])
+    config['m'] = m
+    config['v'] = v
+    #############################################################################
+    #                             END OF YOUR CODE                              #
+    #############################################################################
 
-    pass
-
-    # *****END OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
-    ###########################################################################
-    #                             END OF YOUR CODE                            #
-    ###########################################################################
-
-    return next_w, config
+    return next_x, config
